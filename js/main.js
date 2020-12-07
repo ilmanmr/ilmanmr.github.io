@@ -66,7 +66,7 @@
     .on("load", function () {
       //Load
       // Animation on Page Loading
-      $(".preloader").fadeOut(300, "linear");
+      // $(".preloader").fadeOut(300, "linear");
 
       // initializing page transition.
       var ptPage = $(".animated-sections");
