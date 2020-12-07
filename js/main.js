@@ -66,7 +66,7 @@
     .on("load", function () {
       //Load
       // Animation on Page Loading
-      // $(".preloader").fadeOut(300, "linear");
+      $(".preloader").fadeOut(800, "linear");
 
       // initializing page transition.
       var ptPage = $(".animated-sections");
@@ -103,9 +103,9 @@
           "calc( 50% + " + newvalueX + "px ) calc( 50% + " + newvalueY + "px )",
       });
 
-      setTimeout(function () {
-        elements.removeClass("transition");
-      }, 300);
+      // setTimeout(function () {
+      //   elements.removeClass("transition");
+      // }, 300);
     });
 
     // Mobile menu
