@@ -105,7 +105,7 @@
 
       setTimeout(function () {
         elements.removeClass("transition");
-      }, 300);
+      }, 100);
     });
 
     // Mobile menu
